@@ -8,5 +8,6 @@ def fizzbuzz(number)
   else
     number
   end
-  
 end
+
+(1..100).each {|number| puts "#{number} --> #{fizzbuzz(number)}"}
